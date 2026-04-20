@@ -4,7 +4,7 @@ import AVFoundation
 // MARK: - Audio
 
 @Observable
-final class AudioPlayer {
+final class AudioPlayer: @unchecked Sendable {
     private var player: AVPlayer?
     var isPlaying = false
     var isLoading = false
@@ -25,7 +25,9 @@ final class AudioPlayer {
         NotificationCenter.default.addObserver(
             forName: .AVPlayerItemDidPlayToEndTime,
             object: p.currentItem, queue: .main
-        ) { [weak self] _ in self?.isPlaying = false }
+        ) { [weak self] _ in
+            MainActor.assumeIsolated { self?.isPlaying = false }
+        }
     }
 
     func stop() {
