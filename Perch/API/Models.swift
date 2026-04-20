@@ -51,14 +51,14 @@ struct RecordsPage: Decodable {
 }
 
 // MARK: - Species
-// id arrives as Int from the API; stored as String to stay consistent with
-// favorites (Set<String>) and the speciesId computed on Detection.
+// id arrives as Int; stored as String to match favorites (Set<String>) and
+// Detection.speciesId. Detection count lives in a nested "detections" object.
 struct Species: Decodable, Identifiable {
     let id: String
     let commonName: String
     let scientificName: String
     let imageUrl: String?
-    let count: Int
+    let count: Int          // sourced from detections.total
 
     init(from decoder: Decoder) throws {
         let c = try decoder.container(keyedBy: CodingKeys.self)
@@ -67,15 +67,21 @@ struct Species: Decodable, Identifiable {
         } else {
             id = try c.decode(String.self, forKey: .id)
         }
-        commonName     = try c.decode(String.self,  forKey: .commonName)
-        scientificName = try c.decode(String.self,  forKey: .scientificName)
+        commonName     = try c.decode(String.self, forKey: .commonName)
+        scientificName = try c.decode(String.self, forKey: .scientificName)
         imageUrl       = try c.decodeIfPresent(String.self, forKey: .imageUrl)
-        count          = try c.decode(Int.self,     forKey: .count)
+        // Total detection count is nested under "detections": {"total": N, ...}
+        let detections = try c.decodeIfPresent(SpeciesDetectionCounts.self, forKey: .detections)
+        count          = detections?.total ?? 0
     }
 
     enum CodingKeys: String, CodingKey {
-        case id, commonName, scientificName, imageUrl, count
+        case id, commonName, scientificName, imageUrl, detections
     }
+}
+
+private struct SpeciesDetectionCounts: Decodable {
+    let total: Int
 }
 
 // MARK: - Stats
