@@ -33,7 +33,14 @@ actor BirdWeatherClient {
         guard http.statusCode == 200 else {
             throw APIError.httpError(http.statusCode, String(data: data, encoding: .utf8) ?? "")
         }
-        return try JSONDecoder().decode(T.self, from: data)
+        do {
+            return try JSONDecoder().decode(T.self, from: data)
+        } catch {
+            // Log the raw body so the actual JSON mismatch is visible in the console.
+            let body = String(data: data, encoding: .utf8) ?? "<non-UTF8>"
+            print("[BirdWeather] Decode failed for \(T.self): \(error)\nRaw response: \(body)")
+            throw error
+        }
     }
 
     // MARK: - Endpoints

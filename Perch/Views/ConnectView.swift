@@ -67,8 +67,10 @@ struct ConnectView: View {
             errorMessage = "Station not found — check your station ID and try again."
         } catch APIError.httpError(let code, _) {
             errorMessage = "The station returned an error (\(code)). Please try again later."
+        } catch is DecodingError {
+            errorMessage = "Could not read station data — the server response was unexpected. Check the Xcode console for details."
         } catch {
-            errorMessage = "Network error — check your internet connection and try again."
+            errorMessage = "Network error — check your internet connection and try again. (\(error.localizedDescription))"
         }
         isLoading = false
     }
