@@ -97,7 +97,7 @@ struct FeedContentView: View {
                 }
                 .listRowInsets(EdgeInsets())
                 .onAppear {
-                    if record.id == loader.records.last?.id {
+                    if record.id == loader.records.last?.id && !loader.isLoadingMore {
                         Task { await loader.loadMore() }
                     }
                     if appState.isFavorite(record.speciesId) {

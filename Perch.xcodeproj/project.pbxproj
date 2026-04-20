@@ -7,50 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A5259634B492B2277A7FAD52 /* PerchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC166420631DABC666443F82 /* PerchApp.swift */; };
-		8472EA74F4A030868BA8F000 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A26DFCD97CE4902DB5DBDF /* AppState.swift */; };
 		077D508980678036A1EB63D3 /* BirdWeatherClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0FE3B9F1FE489632EBD21B /* BirdWeatherClient.swift */; };
-		59C920217186339A5FCB559B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8FAA153CE450624D4F2048 /* Models.swift */; };
 		0F066C02F167549F61DE3036 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EE78ABBF58CF7931C7EB33 /* Keychain.swift */; };
-		28F267F4C3AA0C3FE7526BE7 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB7710E38B609079AAEE75E /* NotificationManager.swift */; };
-		672455CC0392320A74C3B987 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3CC141F2D700156708866E /* RootView.swift */; };
-		69A6BB242323F1A148B2C09C /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E1FEF2DC239DF5E730501 /* WelcomeView.swift */; };
-		544472C5E31FF50D853088DC /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF2F3FE555C7A81ED14129 /* MainTabView.swift */; };
-		E70F5759A49048188E2372E1 /* ConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EE3A44128FAF3F39467A91 /* ConnectView.swift */; };
-		19435C1D4B76BB28081F03A3 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19645DF82FC9392E9CBE1EB5 /* FeedView.swift */; };
-		E37F8AE0762AF0F3ED85A922 /* RecordCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15299E6D024380FF79D770AB /* RecordCard.swift */; };
 		17B534B1A9AE227470684289 /* RecordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710AD78E29C24499E6A50FD1 /* RecordDetailView.swift */; };
-		C3CA116C53744BA26AE88703 /* SpeciesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2174D4BE823DDB9C522E025C /* SpeciesListView.swift */; };
-		B4C4BB7EDBCF35C04D3D86D7 /* SpeciesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A6A2C8551C4CB2158B7360 /* SpeciesRow.swift */; };
+		19435C1D4B76BB28081F03A3 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19645DF82FC9392E9CBE1EB5 /* FeedView.swift */; };
+		28F267F4C3AA0C3FE7526BE7 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB7710E38B609079AAEE75E /* NotificationManager.swift */; };
 		2F1912310B28CAC320A15875 /* SpeciesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C97874814C1E3853F98DE /* SpeciesDetailView.swift */; };
 		4F69660674199AEE2411526E /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406B1AC88CA6C3ED56E0E82F /* FavoritesView.swift */; };
-		A51FBB2CD2A70B411C0FAE67 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D55690F6A556F3A7F1CB45 /* StatsView.swift */; };
-		8999469A6021D3273D8B4EAE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31D4D2DA8A429E559F39C0 /* SettingsView.swift */; };
+		544472C5E31FF50D853088DC /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF2F3FE555C7A81ED14129 /* MainTabView.swift */; };
+		59C920217186339A5FCB559B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8FAA153CE450624D4F2048 /* Models.swift */; };
+		672455CC0392320A74C3B987 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3CC141F2D700156708866E /* RootView.swift */; };
+		69A6BB242323F1A148B2C09C /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E1FEF2DC239DF5E730501 /* WelcomeView.swift */; };
 		6AFD46B5B024E2AC82162387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8422F1B5C0821327E76963AD /* Assets.xcassets */; };
+		8472EA74F4A030868BA8F000 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A26DFCD97CE4902DB5DBDF /* AppState.swift */; };
+		8999469A6021D3273D8B4EAE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31D4D2DA8A429E559F39C0 /* SettingsView.swift */; };
+		A51FBB2CD2A70B411C0FAE67 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D55690F6A556F3A7F1CB45 /* StatsView.swift */; };
+		A5259634B492B2277A7FAD52 /* PerchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC166420631DABC666443F82 /* PerchApp.swift */; };
+		B4C4BB7EDBCF35C04D3D86D7 /* SpeciesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A6A2C8551C4CB2158B7360 /* SpeciesRow.swift */; };
+		C3CA116C53744BA26AE88703 /* SpeciesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2174D4BE823DDB9C522E025C /* SpeciesListView.swift */; };
+		E37F8AE0762AF0F3ED85A922 /* RecordCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15299E6D024380FF79D770AB /* RecordCard.swift */; };
+		E70F5759A49048188E2372E1 /* ConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EE3A44128FAF3F39467A91 /* ConnectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FC166420631DABC666443F82 /* PerchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerchApp.swift; sourceTree = "<group>"; };
-		59A26DFCD97CE4902DB5DBDF /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		0B0FE3B9F1FE489632EBD21B /* BirdWeatherClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdWeatherClient.swift; sourceTree = "<group>"; };
-		5A8FAA153CE450624D4F2048 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		F8EE78ABBF58CF7931C7EB33 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
-		CAB7710E38B609079AAEE75E /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
-		5A3CC141F2D700156708866E /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
-		269E1FEF2DC239DF5E730501 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
-		5DEF2F3FE555C7A81ED14129 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
-		A3EE3A44128FAF3F39467A91 /* ConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectView.swift; sourceTree = "<group>"; };
-		19645DF82FC9392E9CBE1EB5 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		15299E6D024380FF79D770AB /* RecordCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCard.swift; sourceTree = "<group>"; };
-		710AD78E29C24499E6A50FD1 /* RecordDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordDetailView.swift; sourceTree = "<group>"; };
+		19645DF82FC9392E9CBE1EB5 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		2174D4BE823DDB9C522E025C /* SpeciesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesListView.swift; sourceTree = "<group>"; };
-		99A6A2C8551C4CB2158B7360 /* SpeciesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesRow.swift; sourceTree = "<group>"; };
-		FA4C97874814C1E3853F98DE /* SpeciesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesDetailView.swift; sourceTree = "<group>"; };
+		269E1FEF2DC239DF5E730501 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		406B1AC88CA6C3ED56E0E82F /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
-		C7D55690F6A556F3A7F1CB45 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
-		BA31D4D2DA8A429E559F39C0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		59A26DFCD97CE4902DB5DBDF /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		5A3CC141F2D700156708866E /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		5A8FAA153CE450624D4F2048 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		5DEF2F3FE555C7A81ED14129 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		710AD78E29C24499E6A50FD1 /* RecordDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordDetailView.swift; sourceTree = "<group>"; };
 		8422F1B5C0821327E76963AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99A6A2C8551C4CB2158B7360 /* SpeciesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesRow.swift; sourceTree = "<group>"; };
+		A3EE3A44128FAF3F39467A91 /* ConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectView.swift; sourceTree = "<group>"; };
+		BA31D4D2DA8A429E559F39C0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C7D55690F6A556F3A7F1CB45 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		CAB7710E38B609079AAEE75E /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		F8EE78ABBF58CF7931C7EB33 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
 		FA01F24504AD69295BDFA62A /* Perch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Perch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4C97874814C1E3853F98DE /* SpeciesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesDetailView.swift; sourceTree = "<group>"; };
+		FC166420631DABC666443F82 /* PerchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerchApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +62,174 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DFC75AD247F2917F44B130E = {
+			isa = PBXGroup;
+			children = (
+				B5ED468AE5B723BAE3A1E0C1 /* Perch */,
+				B88D7E26791946AEFDCC8BB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		187B24A879DB10E302CDFCD0 /* Species */ = {
+			isa = PBXGroup;
+			children = (
+				2174D4BE823DDB9C522E025C /* SpeciesListView.swift */,
+				99A6A2C8551C4CB2158B7360 /* SpeciesRow.swift */,
+				FA4C97874814C1E3853F98DE /* SpeciesDetailView.swift */,
+			);
+			path = Species;
+			sourceTree = "<group>";
+		};
+		2DAF362C0B0AC1AB3389C13E /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				F8EE78ABBF58CF7931C7EB33 /* Keychain.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		403FDFF02B60FD3D2896B6A3 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				0B0FE3B9F1FE489632EBD21B /* BirdWeatherClient.swift */,
+				5A8FAA153CE450624D4F2048 /* Models.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		7029981CE47F395D88115D24 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				19645DF82FC9392E9CBE1EB5 /* FeedView.swift */,
+				15299E6D024380FF79D770AB /* RecordCard.swift */,
+				710AD78E29C24499E6A50FD1 /* RecordDetailView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		8B2625C53B9CFB17EA99E330 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				C7D55690F6A556F3A7F1CB45 /* StatsView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		9CE7050324036B95A8402E68 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				406B1AC88CA6C3ED56E0E82F /* FavoritesView.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		B5ED468AE5B723BAE3A1E0C1 /* Perch */ = {
+			isa = PBXGroup;
+			children = (
+				FC166420631DABC666443F82 /* PerchApp.swift */,
+				59A26DFCD97CE4902DB5DBDF /* AppState.swift */,
+				8422F1B5C0821327E76963AD /* Assets.xcassets */,
+				403FDFF02B60FD3D2896B6A3 /* API */,
+				2DAF362C0B0AC1AB3389C13E /* Persistence */,
+				DEC0AF4B7ADCA240B62C5E35 /* Notifications */,
+				C376D4D9BF34E56D9B2FBC3F /* Views */,
+			);
+			path = Perch;
+			sourceTree = "<group>";
+		};
+		B88D7E26791946AEFDCC8BB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA01F24504AD69295BDFA62A /* Perch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C376D4D9BF34E56D9B2FBC3F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A3CC141F2D700156708866E /* RootView.swift */,
+				269E1FEF2DC239DF5E730501 /* WelcomeView.swift */,
+				5DEF2F3FE555C7A81ED14129 /* MainTabView.swift */,
+				A3EE3A44128FAF3F39467A91 /* ConnectView.swift */,
+				7029981CE47F395D88115D24 /* Feed */,
+				187B24A879DB10E302CDFCD0 /* Species */,
+				9CE7050324036B95A8402E68 /* Favorites */,
+				8B2625C53B9CFB17EA99E330 /* Stats */,
+				C72017040678F92338C4F3E8 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C72017040678F92338C4F3E8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				BA31D4D2DA8A429E559F39C0 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		DEC0AF4B7ADCA240B62C5E35 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				CAB7710E38B609079AAEE75E /* NotificationManager.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		730950AD798A77AD508AA9E2 /* Perch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65A46987C25C5B7B2DC3BF36 /* Build configuration list for PBXNativeTarget "Perch" */;
+			buildPhases = (
+				7EE609159AC086BAB15FF998 /* Sources */,
+				A9E872B0C4F3AB11D258C39F /* Frameworks */,
+				A2892AFC2D88060C0AA91373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Perch;
+			productName = Perch;
+			productReference = FA01F24504AD69295BDFA62A /* Perch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1781F676DEDF5767F3243DB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					730950AD798A77AD508AA9E2 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 0EA97B54632306078021780E /* Build configuration list for PBXProject "Perch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DFC75AD247F2917F44B130E;
+			productRefGroup = B88D7E26791946AEFDCC8BB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				730950AD798A77AD508AA9E2 /* Perch */,
+			);
+		};
+/* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A2892AFC2D88060C0AA91373 /* Resources */ = {
@@ -103,233 +271,7 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXGroup section */
-		0DFC75AD247F2917F44B130E = {
-			isa = PBXGroup;
-			children = (
-				B5ED468AE5B723BAE3A1E0C1 /* Perch */,
-				B88D7E26791946AEFDCC8BB7 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		B88D7E26791946AEFDCC8BB7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FA01F24504AD69295BDFA62A /* Perch.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B5ED468AE5B723BAE3A1E0C1 /* Perch */ = {
-			isa = PBXGroup;
-			children = (
-				FC166420631DABC666443F82 /* PerchApp.swift */,
-				59A26DFCD97CE4902DB5DBDF /* AppState.swift */,
-				8422F1B5C0821327E76963AD /* Assets.xcassets */,
-				403FDFF02B60FD3D2896B6A3 /* API */,
-				2DAF362C0B0AC1AB3389C13E /* Persistence */,
-				DEC0AF4B7ADCA240B62C5E35 /* Notifications */,
-				C376D4D9BF34E56D9B2FBC3F /* Views */,
-			);
-			path = Perch;
-			sourceTree = "<group>";
-		};
-		403FDFF02B60FD3D2896B6A3 /* API */ = {
-			isa = PBXGroup;
-			children = (
-				0B0FE3B9F1FE489632EBD21B /* BirdWeatherClient.swift */,
-				5A8FAA153CE450624D4F2048 /* Models.swift */,
-			);
-			path = API;
-			sourceTree = "<group>";
-		};
-		2DAF362C0B0AC1AB3389C13E /* Persistence */ = {
-			isa = PBXGroup;
-			children = (
-				F8EE78ABBF58CF7931C7EB33 /* Keychain.swift */,
-			);
-			path = Persistence;
-			sourceTree = "<group>";
-		};
-		DEC0AF4B7ADCA240B62C5E35 /* Notifications */ = {
-			isa = PBXGroup;
-			children = (
-				CAB7710E38B609079AAEE75E /* NotificationManager.swift */,
-			);
-			path = Notifications;
-			sourceTree = "<group>";
-		};
-		C376D4D9BF34E56D9B2FBC3F /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				5A3CC141F2D700156708866E /* RootView.swift */,
-				269E1FEF2DC239DF5E730501 /* WelcomeView.swift */,
-				5DEF2F3FE555C7A81ED14129 /* MainTabView.swift */,
-				A3EE3A44128FAF3F39467A91 /* ConnectView.swift */,
-				7029981CE47F395D88115D24 /* Feed */,
-				187B24A879DB10E302CDFCD0 /* Species */,
-				9CE7050324036B95A8402E68 /* Favorites */,
-				8B2625C53B9CFB17EA99E330 /* Stats */,
-				C72017040678F92338C4F3E8 /* Settings */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		7029981CE47F395D88115D24 /* Feed */ = {
-			isa = PBXGroup;
-			children = (
-				19645DF82FC9392E9CBE1EB5 /* FeedView.swift */,
-				15299E6D024380FF79D770AB /* RecordCard.swift */,
-				710AD78E29C24499E6A50FD1 /* RecordDetailView.swift */,
-			);
-			path = Feed;
-			sourceTree = "<group>";
-		};
-		187B24A879DB10E302CDFCD0 /* Species */ = {
-			isa = PBXGroup;
-			children = (
-				2174D4BE823DDB9C522E025C /* SpeciesListView.swift */,
-				99A6A2C8551C4CB2158B7360 /* SpeciesRow.swift */,
-				FA4C97874814C1E3853F98DE /* SpeciesDetailView.swift */,
-			);
-			path = Species;
-			sourceTree = "<group>";
-		};
-		9CE7050324036B95A8402E68 /* Favorites */ = {
-			isa = PBXGroup;
-			children = (
-				406B1AC88CA6C3ED56E0E82F /* FavoritesView.swift */,
-			);
-			path = Favorites;
-			sourceTree = "<group>";
-		};
-		8B2625C53B9CFB17EA99E330 /* Stats */ = {
-			isa = PBXGroup;
-			children = (
-				C7D55690F6A556F3A7F1CB45 /* StatsView.swift */,
-			);
-			path = Stats;
-			sourceTree = "<group>";
-		};
-		C72017040678F92338C4F3E8 /* Settings */ = {
-			isa = PBXGroup;
-			children = (
-				BA31D4D2DA8A429E559F39C0 /* SettingsView.swift */,
-			);
-			path = Settings;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		730950AD798A77AD508AA9E2 /* Perch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 65A46987C25C5B7B2DC3BF36;
-			buildPhases = (
-				7EE609159AC086BAB15FF998 /* Sources */,
-				A9E872B0C4F3AB11D258C39F /* Frameworks */,
-				A2892AFC2D88060C0AA91373 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Perch;
-			productName = Perch;
-			productReference = FA01F24504AD69295BDFA62A /* Perch.app */;
-			productType = "com.apple.product-type.application";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		1781F676DEDF5767F3243DB0 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1600;
-				TargetAttributes = {
-					730950AD798A77AD508AA9E2 = {
-						CreatedOnToolsVersion = 16.0;
-					};
-				};
-			};
-			buildConfigurationList = 0EA97B54632306078021780E;
-			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 0DFC75AD247F2917F44B130E;
-			productRefGroup = B88D7E26791946AEFDCC8BB7 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				730950AD798A77AD508AA9E2 /* Perch */,
-			);
-		};
-/* End PBXProject section */
-
 /* Begin XCBuildConfiguration section */
-		CBC6F98596A3076EE0332242 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
 		94E0F5EECA50A4EA6874D76E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -390,30 +332,6 @@
 			};
 			name = Release;
 		};
-		D18BE25319F8795AFD50C125 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Perch does not use your microphone.";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.oesterlin.perch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		B7348B5B1006462BE3B807A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -422,6 +340,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B57VF3884S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Perch does not use your microphone.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -429,15 +348,107 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.oesterlin.perch";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.oesterlin.perch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
+		};
+		CBC6F98596A3076EE0332242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D18BE25319F8795AFD50C125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B57VF3884S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Perch does not use your microphone.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.oesterlin.perch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -461,7 +472,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
 	};
 	rootObject = 1781F676DEDF5767F3243DB0 /* Project object */;
 }
