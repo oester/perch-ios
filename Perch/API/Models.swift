@@ -1,11 +1,10 @@
 import Foundation
 
-struct Station: Codable {
-    let id: String
+// API returns the station object at root (no wrapper key).
+// id is an Int in the JSON; other fields (coords, timezone) are unused by the app.
+struct Station: Decodable {
+    let id: Int
     let name: String
-    let latitude: Double
-    let longitude: Double
-    let timezone: String
 }
 
 struct Detection: Codable, Identifiable {

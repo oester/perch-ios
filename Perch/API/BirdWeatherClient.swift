@@ -46,8 +46,7 @@ actor BirdWeatherClient {
     // MARK: - Endpoints
 
     func fetchStation(_ stationId: String, token: String) async throws -> Station {
-        let r: StationResponse = try await fetch("stations/\(stationId)", token: token)
-        return r.station
+        return try await fetch("stations/\(stationId)", token: token)
     }
 
     func fetchRecentRecords(stationId: String, token: String, cursor: String? = nil) async throws -> RecordsPage {
@@ -90,7 +89,7 @@ actor BirdWeatherClient {
 
 // MARK: - Response wrappers (one per endpoint shape)
 
-private struct StationResponse:   Decodable { let station:   Station      }
+// Station is returned at root — no wrapper struct needed.
 private struct DetectionResponse: Decodable { let detection: Detection    }
 private struct SpeciesListResponse:Decodable{ let species:   [Species]    }
 private struct SpeciesResponse:   Decodable { let species:   Species      }
