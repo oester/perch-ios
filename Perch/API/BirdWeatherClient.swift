@@ -76,8 +76,7 @@ actor BirdWeatherClient {
     }
 
     func fetchStats(stationId: String, token: String) async throws -> Stats {
-        let r: StatsResponse = try await fetch("stations/\(stationId)/stats", token: token)
-        return r.stats
+        return try await fetch("stations/\(stationId)/stats", token: token)
     }
 
     func fetchDailyCounts(stationId: String, token: String, days: Int = 14) async throws -> [DailyCount] {
@@ -92,5 +91,5 @@ actor BirdWeatherClient {
 // Detection is returned at root for /detections/{id} — no wrapper struct needed.
 private struct SpeciesListResponse:Decodable{ let species:   [Species]    }
 private struct SpeciesResponse:   Decodable { let species:   Species      }
-private struct StatsResponse:     Decodable { let stats:     Stats        }
+// Stats is returned at root — no wrapper struct needed.
 private struct DailyResponse:     Decodable { let daily:     [DailyCount] }

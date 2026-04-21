@@ -16,6 +16,8 @@ final class AudioPlayer: @unchecked Sendable {
             return
         }
         isLoading = true
+        try? AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
+        try? AVAudioSession.sharedInstance().setActive(true)
         let p = AVPlayer(url: url)
         player    = p
         isLoading = false

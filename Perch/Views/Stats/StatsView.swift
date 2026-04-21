@@ -6,13 +6,13 @@ struct StatsView: View {
     @State private var stats: Stats?
     @State private var daily: [DailyCount] = []
     @State private var topSpecies: [Species] = []
-    @State private var isLoading = false
+    @State private var isLoading = true
     @State private var loadFailed = false
 
     var body: some View {
         NavigationStack {
             Group {
-                if isLoading && stats == nil {
+                if isLoading {
                     ProgressView()
                 } else if loadFailed && stats == nil {
                     ContentUnavailableView {
@@ -29,6 +29,8 @@ struct StatsView: View {
                         }
                         .padding()
                     }
+                } else {
+                    ProgressView()
                 }
             }
             .navigationTitle("Stats")
@@ -40,7 +42,6 @@ struct StatsView: View {
         HStack(spacing: 12) {
             StatCard(label: "Total records",  value: stats.totalRecords.formatted())
             StatCard(label: "Unique species", value: "\(stats.uniqueSpecies)")
-            StatCard(label: "Today",          value: "\(stats.recordsToday)")
         }
     }
 

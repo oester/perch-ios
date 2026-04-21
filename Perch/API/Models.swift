@@ -85,10 +85,15 @@ private struct SpeciesDetectionCounts: Decodable {
 }
 
 // MARK: - Stats
+// API returns at root: {"success":true,"detections":N,"species":N}
 struct Stats: Decodable {
     let totalRecords: Int
     let uniqueSpecies: Int
-    let recordsToday: Int
+
+    enum CodingKeys: String, CodingKey {
+        case totalRecords = "detections"
+        case uniqueSpecies = "species"
+    }
 }
 
 // MARK: - DailyCount
